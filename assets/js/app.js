@@ -46,7 +46,7 @@ btndificil.addEventListener("click", function() {
 //funcion para resetear el juego
 reset.addEventListener("click", function() {
     console.log("clicked")
-        // gener nuevo color
+        // generar nuevo color
     color = generateRandomColors(numSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
